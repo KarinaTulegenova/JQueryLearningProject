@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Karina Tulegenova | Assignment 7</title>
+	<link rel="stylesheet" href="styles.css" />
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+		integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	<script src="app.js" defer></script>
+</head>
+
+<body>
+	<header>
+		<h1>Assignment 7</h1>
+	</header>
+
+	<main class="container">
+		<div class="grid">
+			<section class="card" id="task1">
+				<h2>Task 1</h2>
+				<p id="demo-id">This sentence was selected using <code>id="demo-id"</code>.</p>
+				<p class="demo-class">This sentence was selected using <code>class="demo-class"</code>.</p>
+				<p>Here’s a regular paragraph selected by its <strong>tag name</strong>.</p>
+				<div class="btns">
+					<button id="btnText">Change text() on ID</button>
+					<button id="btnHtml">Change html() on class</button>
+					<button id="btnCss">Change CSS on tags</button>
+					<button id="btnReset1">Reset</button>
+				</div>
+			</section>
+
+
+			<section class="card" id="task2">
+				<h2>Task 2</h2>
+				<p class="muted">Use <code>.hide()</code>, <code>.show()</code>, <code>.toggle()</code>.</p>
+				<p id="vis-p">I can be hidden, shown, or toggled.</p>
+				<div class="btns">
+					<button id="hideP">Hide</button>
+					<button id="showP">Show</button>
+					<button id="toggleP">Toggle</button>
+				</div>
+			</section>
+
+			<section class="card" id="task3">
+				<h2>Task 3</h2>
+				<div class="row">
+					<div>
+						<p class="muted">Watch this cute cat fade in and out</p>
+						<img id="fadeImg" alt="Cute cat gif" class="img" src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif"
+							width="400" height="300" />
+					</div>
+					<div>
+						<div class="btns">
+							<button id="fadeIn">fadeIn</button>
+							<button id="fadeOut">fadeOut</button>
+							<button id="fadeToggle">fadeToggle</button>
+							<button id="fadeReset">Reset</button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="card" id="task4">
+				<h2>Task 4</h2>
+				<button id="slideDownBtn">Slide Down</button>
+				<button id="slideUpBtn">Slide Up</button>
+				<button id="slideToggleBtn">Slide Toggle</button>
+				<div id="panel" class="panel" style="display:none; margin-top:10px;">
+					<strong>Collapsible Panel</strong><br />
+					This content appears and disappears with slide animations.
+				</div>
+			</section>
+
+			<section class="card" id="task5">
+				<h2>Task 5</h2>
+				<ul id="todo" class="panel" style="list-style: disc;">
+					<li>First item</li>
+					<li>Second item</li>
+				</ul>
+				<div class="btns">
+					<button id="addItem">Append Item</button>
+					<button id="prependItem">Prepend Item</button>
+					<button id="removeItem">Remove Last</button>
+				</div>
+			</section>
+
+			<section class="card" id="task6">
+				<h2>Task 6</h2>
+				<div class="row">
+					<div>
+						<img id="attrImg" alt="Switchable" class="img"
+							src="data:image/svg+xml;utf8,<?xml version='1.0'?><svg xmlns='http://www.w3.org/2000/svg' width='400' height='220'><rect width='100%' height='100%' fill='%2322d3ee'/><text x='50%' y='50%' font-size='28' text-anchor='middle' fill='white' dy='.3em'>Image A</text></svg>" />
+						<div class="btns"><button id="swapImg">Change Image src</button></div>
+					</div>
+					<div>
+						<a id="dynamicLink" class="link" href="https://api.jquery.com" target="_blank">Visit jQuery
+							API</a>
+						<div class="btns"><button id="swapLink">Change Link href</button></div>
+					</div>
+				</div>
+			</section>
+
+			<section class="card" id="task7">
+				<h2>Task 7</h2>
+				<div class="row">
+					<div>
+						<label>Name</label>
+						<input id="nameInput" type="text" placeholder="Type your name" />
+					</div>
+					<div>
+						<label>Email</label>
+						<input id="emailInput" type="email" placeholder="Type your email" />
+					</div>
+				</div>
+				<p class="muted" style="margin-top:10px">Live preview:</p>
+				<div class="panel"><strong id="liveName">Name: </strong><br /><span id="liveEmail">Email: </span></div>
+			</section>
+
+			<section class="card" id="task8">
+				<h2>Task 8</h2>
+				<div class="arena">
+					<div class="box" id="basicBox"></div>
+				</div>
+				<div class="btns">
+					<button id="animateBasic">Animate Size & Position</button>
+					<button id="resetBasic">Reset</button>
+				</div>
+			</section>
+
+			<section class="card" id="task9">
+				<h2>Task 9</h2>
+				<div class="arena">
+					<div class="box2" id="seqBox"></div>
+				</div>
+				<div class="btns">
+					<button id="animateSequence">Run Sequence</button>
+					<button id="resetSequence">Reset</button>
+				</div>
+			</section>
+
+			<section class="card" id="task10">
+				<h2>Task 10</h2>
+				<div class="arena">
+					<div class="comboBox" id="comboBox"></div>
+				</div>
+				<div class="btns">
+					<button id="animateCombined">Animate (opacity + size + move)</button>
+					<button id="resetCombined">Reset</button>
+				</div>
+			</section>
+
+			<section class="card" id="task11">
+				<h2>Task 11</h2>
+				<p class="muted">Image Gallery</p>
+			
+				<div class="gallery" id="gallery">
+					<div class="thumb">
+						<img alt="cat1"
+							src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?auto=format&fit=crop&w=600&h=600&q=80" />
+					</div>
+					<div class="thumb">
+						<img alt="cat2"
+							src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?auto=format&fit=crop&w=600&h=600&q=80" />
+					</div>
+					<div class="thumb">
+						<img alt="cat3"
+							src="https://tse3.mm.bing.net/th/id/OIP.L3Vki2XjqS-ENAqsaLB8DgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" />
+					</div>
+				</div>
+			</section>
+
+		</div>
+	</main>
+
+	<div class="modal" id="modal">
+		<button class="closeX" id="closeModal">Close</button>
+		<div class="content"><img id="modalImg" alt="preview" src="" /></div>
+	</div>
+
+	<footer>
+		Karina Tulegenova | SE-2419
+	</footer>
+</body>
+
+</html>
