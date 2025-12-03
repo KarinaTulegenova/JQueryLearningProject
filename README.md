@@ -1,63 +1,149 @@
-Student: Tulegenova Karina
-Group: SE-2419
-Part 1. Getting Started with jQuery
-Task 0. Setup
-First, I connected the jQuery library using a CDN link.
-Then I wrote a basic document ready function to make sure the script only runs after the page
-has fully loaded.
-To test it, I printed “jQuery is ready!” in the browser console, confirming that everything was
-working correctly.
-Task 1. Selectors & CSS
-In this part, I learned how to select elements by their ID, class, and tag using jQuery.
-I changed the text and HTML content of different elements and applied new styles
-dynamically.
-This helped me understand how to manipulate both content and appearance through jQuery
-methods.
-Part 2. jQuery Effects
-Task 2. Visibility Methods
-I created a paragraph and two buttons, Hide and Show.
-Then I used visibility methods to hide, show, and toggle the paragraph’s visibility.
-It demonstrated how jQuery can easily control the display of elements.
-Task 3. Fade Methods
-In this task, I added a cute cat GIF instead of a static image.
-I used fading effects to make the image smoothly appear, disappear, or toggle between
-visible and hidden.
-It was a good exercise in applying visual transitions.
-Task 4. Slide Methods
-I created a collapsible panel that could slide up, slide down, or toggle between open and
-closed states.
-This task showed how sliding animations can make interface elements more dynamic and
-interactive.
-Part 3. DOM Manipulation with jQuery
-Task 5. Add & Remove Elements
-Here, I created a list with two buttons: one to add new list items and another to remove them.
-I practiced dynamically modifying the structure of the webpage by adding and removing
-elements.
-Task 6. Modifying Attributes
-In this task, I worked with HTML attributes.
-I made a button that changes an image source when clicked, and another one that updates a
-hyperlink address dynamically.
-Task 7. Form Interaction
-I created a form with input fields for Name and Email.
-When the user types something, their input is displayed live below the form.
-This helped me understand how to handle user input and show real-time feedback.
-Part 4. Animations
-Task 8. Basic Animation
-I animated a square div by increasing its size and moving its position.
-This demonstrated how jQuery can smoothly change an element’s properties over time.
-Task 9. Sequential Animations
-Next, I made the box move in several directions step by step — right, down, shrink, and
-return to the starting point.
-This helped me understand how to create chained animations.
-Task 10. Combined Animation
-Here I combined several animation effects — movement, resizing, and opacity changes — all
-in one action.
-It showed how multiple visual transformations can be applied at once for a more complex
-effect.
-Part 5. Mini Project
-Task 11. Interactive jQuery Project
-For the final task, I chose to create an Image Gallery.
-The gallery displays small thumbnails that fade in and out, and when a user clicks on one, it
-enlarges smoothly.
-This project combined all the skills I learned — effects, DOM manipulation, and animation
-— into one interactive web component.
+# 📘 Getting Started with jQuery
+
+## 👤 Student Information
+- **Student:** Tulegenova Karina  
+- **Group:** SE-2419  
+- **Course:** Frontend Development  
+- **Topic:** Getting Started with jQuery  
+
+---
+
+## 🧩 Project Overview
+
+This repository contains a series of practical tasks focused on learning and applying **jQuery fundamentals**.  
+The project covers element selection, style manipulation, effects, animations, DOM updates, and a small interactive project.
+
+Each task builds on the previous one and demonstrates how jQuery simplifies JavaScript-based interactions on a web page.
+
+---
+
+## 🚀 Part 1. Getting Started with jQuery
+
+### ✅ Task 0. Setup
+
+- Connected the **jQuery library** using a CDN link.
+- Implemented a basic **document ready** function to ensure scripts run after the page loads.
+- Verified successful setup by printing the message  
+  `“jQuery is ready!”` in the browser console.
+
+---
+
+## 🎨 Task 1. Selectors & CSS
+
+- Selected elements by **ID**, **class**, and **HTML tag**.
+- Modified text and HTML content using jQuery methods.
+- Applied dynamic CSS styles to elements.
+  
+This task helped me understand how jQuery can manipulate both **content** and **appearance** of webpage elements.
+
+---
+
+## ✨ Part 2. jQuery Effects
+
+### ✅ Task 2. Visibility Methods
+
+- Created a paragraph with **Hide** and **Show** buttons.
+- Used `hide()`, `show()`, and `toggle()` methods.
+- Demonstrated easy control over element visibility.
+
+---
+
+### ✅ Task 3. Fade Methods
+
+- Added a cute **cat GIF** instead of a static image.
+- Applied `fadeIn()`, `fadeOut()`, and `fadeToggle()` effects.
+- Practiced smooth visual transitions.
+
+---
+
+### ✅ Task 4. Slide Methods
+
+- Built a **collapsible panel**.
+- Used `slideUp()`, `slideDown()`, and `slideToggle()`.
+- Learned how sliding animations improve UI interactivity.
+
+---
+
+## 🧠 Part 3. DOM Manipulation with jQuery
+
+### ✅ Task 5. Add & Remove Elements
+
+- Created a dynamic list.
+- Implemented buttons to **add** and **remove** list items.
+- Practiced modifying the DOM structure in real time.
+
+---
+
+### ✅ Task 6. Modifying Attributes
+
+- Changed an image source on button click.
+- Dynamically updated a hyperlink address.
+- Learned how to work with HTML attributes using jQuery.
+
+---
+
+### ✅ Task 7. Form Interaction
+
+- Built a form with **Name** and **Email** inputs.
+- Displayed user input live below the form while typing.
+- Practiced handling events and real-time user interaction.
+
+---
+
+## 🎬 Part 4. Animations
+
+### ✅ Task 8. Basic Animation
+
+- Animated a square `<div>`.
+- Changed its size and position over time.
+- Demonstrated simple jQuery animations.
+
+---
+
+### ✅ Task 9. Sequential Animations
+
+- Created chained animations:
+  - move right
+  - move down
+  - shrink
+  - return to the starting position
+- Learned how jQuery queues animations sequentially.
+
+---
+
+### ✅ Task 10. Combined Animation
+
+- Combined multiple effects:
+  - movement
+  - resizing
+  - opacity change
+- Applied complex transformations in a single animation.
+
+---
+
+## 🖼 Part 5. Mini Project
+
+### 🌟 Task 11. Interactive Image Gallery
+
+For the final task, I developed an **interactive image gallery**:
+
+- Displays image thumbnails with fade effects.
+- Clicking a thumbnail smoothly enlarges the image.
+- Combines:
+  - jQuery effects
+  - DOM manipulation
+  - animations
+
+This project summarizes and applies all the skills learned throughout the course.
+
+---
+
+## 🎯 Conclusion
+
+This project helped me gain hands-on experience with **jQuery core features**, including element selection, effects, animations, and dynamic DOM manipulation.  
+The final mini project demonstrates how these techniques can be combined to build interactive and user-friendly web components.
+
+---
+
+**Author:** Tulegenova Karina  
+**Astana IT University**
